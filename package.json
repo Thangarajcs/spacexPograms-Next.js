@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
+    "start": "node index.js",
     "lint": "./node_modules/.bin/eslint ./components ./pages",
     "lint-fix": "./node_modules/.bin/eslint ./src --fix"
   },
