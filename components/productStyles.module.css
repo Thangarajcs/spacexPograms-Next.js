@@ -1,0 +1,52 @@
+.productCard {
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    height: 480px;
+}
+
+.ImageContainer {
+    border-radius: 5px;
+    text-align: center;
+    background-color: lightgray;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.productNmae {
+    margin:10px 0;
+    color: #00008B;
+}
+.noData{
+    position: relative;
+    top: 40%;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+.productImage {
+}
+.missionList {
+margin: 0;
+}
+.footerinfo {
+    display: flex;
+    flex-direction: column;
+    line-height: 2;
+}
+
+
+
+
+@media (min-device-width: 300px) and (max-device-width: 1024px) {
+    .productImage {
+        width: 150px;
+        height: 150px;
+    }
+}
+
+@media (min-device-width: 1024px)  {
+    .productImage {
+        width: 200px;
+        height: 200px;
+    }
+}

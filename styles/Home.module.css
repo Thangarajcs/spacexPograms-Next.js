@@ -1,0 +1,119 @@
+.bodyWrapper {
+  flexGrow: 1;
+
+}
+.titleProgram{
+  margin-bottom: 5px;
+}
+
+.searchLeft {
+  background-color: #fff;
+  margin:  0;
+  padding-bottom: 10px;
+  border-radius: 5px;
+}
+
+.searchLeft h5 {
+  text-align: center;
+}
+
+.flexcontainer {
+  display: flex;
+  flex-direction: row;
+
+}
+
+.flexleft {
+  width: 15%;
+  margin: 0 10px;
+}
+
+.flexright {
+  width: 85%;
+
+}
+
+.developerInfo {
+  position: sticky;
+  bottom: 0;
+  margin: 10px 0;
+  text-align: center;
+}
+
+@media (min-device-width: 300px) and (max-device-width: 699px) {
+  .flexcontainer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .flexleft {
+    width: 100%;
+    margin: 0;
+    padding: 10px;
+  }
+
+  .flexright {
+    width:100%;
+    padding: 10px;
+  }
+  .developerInfo {
+    position: relative;
+  }
+}
+
+@media (min-device-width: 700px)  {
+
+  .flexleft {
+    width: 30%;
+  }
+  .titleProgram{
+    position: sticky;
+    top: 0;
+  }
+  .searchLeft {
+    position: sticky;
+    top: 48px;
+    background-color: #fff;
+  }
+  .flexright {
+    width:80%;
+    overflow: scroll;
+    margin: 0 10px;
+    height: 90vh;
+  }
+}
+
+@media (min-device-width: 1024px) {
+  .flexleft {
+    width: 25%;
+  }
+  .flexright {
+    width:75%;
+    overflow: scroll;
+  }
+}
+
+@media (min-device-width:  1440px) {
+
+  .flexleft {
+    width: 15%;
+  }
+
+  .flexright {
+    width:85%;
+    overflow: scroll;
+  }
+}
+
+@media (min-device-width: 1800px){
+
+  .flexleft {
+    width: 10%;
+  }
+
+  .flexright {
+    width:90%;
+  }
+}
+
+

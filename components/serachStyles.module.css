@@ -1,0 +1,59 @@
+.listStyle {
+    display: flex;
+    flex-direction: column;
+}
+
+.yearFilter {
+    display: flex;
+    flex-direction: column;
+}
+
+.searchTitle {
+   margin: 5px 15px;
+}
+
+
+.column button {
+    margin: 5px;
+    width: 75px;
+    border: none;
+    color: black;
+    opacity: 0.8;
+    border-radius: 5px;
+}
+
+.column button:hover {
+    opacity: 1;
+    border: none;
+    background: #9ACD32;
+    color: black;
+    border-radius: 5px;
+}
+
+
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+    align-items: center;
+}
+
+
+.blue-column {
+    background-color: blue;
+    height: 100px;
+}
+
+.green-column {
+    height: 100px;
+    background-color: green;
+}
