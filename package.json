@@ -3,9 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "next",
     "build": "next build",
-    "start": "node index.js",
+    "start": "next start -p $PORT",
+    "heroku-postbuild": "npm run build",
     "lint": "./node_modules/.bin/eslint ./components ./pages",
     "lint-fix": "./node_modules/.bin/eslint ./src --fix"
   },
