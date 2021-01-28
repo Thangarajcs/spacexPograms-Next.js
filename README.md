@@ -37,19 +37,20 @@ yarn run lint
 
 ## Responsive screens:
 
-Mobile:
+Mobile View:
 
 ![image](https://user-images.githubusercontent.com/30770466/106106533-b28e5780-616b-11eb-9f9b-e75e5245e9c6.png)
 
-Tablet :
+Tablet View:
 
 ![image](https://user-images.githubusercontent.com/30770466/106106544-b6ba7500-616b-11eb-95e6-5179fca97601.png)
 
-laptops & desktop :
+Desktop View :
 
 ![image](https://user-images.githubusercontent.com/30770466/106106548-b7eba200-616b-11eb-887c-15506f46cd46.png)
 
 ## SEO (Lighthouse) results:
+
 ![image](https://user-images.githubusercontent.com/30770466/106106561-bae69280-616b-11eb-9b06-bc39c132f2f4.png)
 
 
