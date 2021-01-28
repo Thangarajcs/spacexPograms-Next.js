@@ -49,10 +49,14 @@ Desktop View :
 
 ![image](https://user-images.githubusercontent.com/30770466/106106561-bae69280-616b-11eb-9b06-bc39c132f2f4.png)
 
+## Test cases:
+
+to run test cases:
+```
+yarn test
+```
 
 ## What I have not done:
-
-Test cases I have not added.
 
 Keyboard navigations not added.
 
