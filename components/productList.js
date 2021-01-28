@@ -29,7 +29,7 @@ export function ProductListContainer() {
                                                     item.mission_id.length > 0 ? <ul className={styles.missionList}>{ item.mission_id.map((x,ind)=><li key={ind+'x'}>{x}  </li>) }</ul> :<span>NA</span>
                                                 }
                                             </div>
-                                            <div><b>Successful Launch: </b><span className={styles.infoValue}>{item.launch_year}</span></div>
+                                            <div><b>Launch Year: </b><span className={styles.infoValue}>{item.launch_year}</span></div>
                                             <div><b>Successful Launch: </b><span className={styles.infoValue}>{`${item.launch_success}`}</span></div>
                                             <div><b>Successful Landing: </b><span className={styles.infoValue}>{`${item.rocket.first_stage.cores[0].land_success}`}</span></div>
                                         </section>
