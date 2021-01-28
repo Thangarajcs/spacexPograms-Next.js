@@ -11,10 +11,6 @@ Filters are handled from client-side.
 
 Whenever page refresh content is served  from Server-side.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-
 To run the development server:
 
 ```bash
