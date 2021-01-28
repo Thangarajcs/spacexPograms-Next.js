@@ -1,6 +1,5 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
-
-## Getting Started
+ [View Application](https://spacex-launch-info.herokuapp.com/) 
+ 
 
 ## About This Project
 
@@ -8,7 +7,7 @@ This project is created using next.js boilerplate.
 
 Application is server-side rendered, which is great for the initial page load time and increasing the SEO scores.
 
-Fiters are from client-side.
+Filters are handled from client-side.
 
 Whenever page refresh content is served  from Server-side.
 
@@ -25,7 +24,7 @@ yarn dev
 ```
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## statis code quality check:
+## static code quality check:
 es-lint used for code quality verification.
 
 below command can be used for verification.
