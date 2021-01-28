@@ -1,3 +1,5 @@
+
+/* function that will manage query param logic */
 export function manageQueryParam (qS,qkey ,qvalue){
     let newParam ={} ;
     for (let [key, value] of Object.entries(qS)) {
@@ -22,14 +24,16 @@ export function manageQueryParam (qS,qkey ,qvalue){
     return newParam;
 }
 
+/* this manage URL logic on filter*/
+
 export function frameURL (queryObject) {
     let URL ='https://api.spaceXdata.com/v3/launches?limit=100&';
-    let paramofFilter ='';
+    let queryStringForAPI ='';
     if(queryObject){
         for (let key in queryObject) {
-            paramofFilter = paramofFilter+`${key}=${queryObject[key]}&`;
+            queryStringForAPI = queryStringForAPI+`${key}=${queryObject[key]}&`;
         }
     }
-    URL = URL + paramofFilter;
+    URL = URL + queryStringForAPI;
     return URL;
 }

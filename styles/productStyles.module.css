@@ -12,9 +12,12 @@
     margin-bottom: 10px;
     padding: 10px;
 }
-.productNmae {
+.productName {
     margin:10px 0;
     color: #00008B;
+}
+.missionList {
+    margin: 0;
 }
 .noData{
     position: relative;
@@ -23,19 +26,14 @@
     margin: 0 auto;
     text-align: center;
 }
-.productImage {
-}
-.missionList {
-margin: 0;
+.infoValue{
+    color: #474f98;
 }
 .footerinfo {
     display: flex;
     flex-direction: column;
     line-height: 2;
 }
-
-
-
 
 @media (min-device-width: 300px) and (max-device-width: 1024px) {
     .productImage {

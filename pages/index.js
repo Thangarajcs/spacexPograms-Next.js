@@ -2,30 +2,31 @@ import React from 'react';
 import styles from '../styles/Home.module.css';
 import axios from 'axios';
 import { useDispatch } from 'react-redux';
-import { ProductListContainer } from './../components/productList';
-import { SearchComp } from './../components/searchComp';
-import {useEffect} from 'react';
-import {frameURL} from '../components/utilities';
+import { ProductListContainer } from '../components/productList';
+import { SearchComponent } from '../components/searchComponent';
+import { useEffect } from 'react';
+import { frameURL } from '../components/utilities';
 
 export default function Home(props) {
     const dispatch = useDispatch();
+    /* storing the initial response from SSR to store */
     useEffect(()=>{
-        const pList = Object.values(props);
-        dispatch({ type: 'INCREMENT_COUNTER',payload : pList});
+        const productList = Object.values(props);
+        dispatch({ type: 'UPDATE_PRODUCT_LIST',payload : productList});
     },[]);
     return (
         <div>
-            <h1 className={styles.titleProgram}>SpaceX Lanuch Programs</h1>
+            <h1 className={styles.projectTitle}>SpaceX Launch Programs</h1>
             <div className={styles.flexcontainer}>
 
-                <div className={styles.flexleft}>
-                    <div className={styles.searchLeft}>
-                        <SearchComp/>
+                <section className={styles.searchContainerLeft}>
+                    <div className={styles.searchContainer}>
+                        <SearchComponent/>
                     </div>
-                </div>
-                <div className={styles.flexright}>
+                </section>
+                <section className={styles.productDisplayContainer}>
                     <ProductListContainer/>
-                </div>
+                </section>
             </div>
             <footer className={styles.developerInfo}> <b>Developed by </b> : Thangaraj Mayilsamy</footer>
         </div>
